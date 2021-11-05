@@ -2,10 +2,17 @@
 // start DB on Mac --> - brew services start mongodb-community@5.0
 // Stop - brew services stop mongodb-community@5.0
 
-//HEROKU
+//HEROKU init
+// MAC --> brew tap heroku/brew && brew install heroku
+// heroku login
+// heroku create APP_NAME --> heroku create sherdg-task-app
+// 
+
+// HEROKU next commits
 // git add --> commit --> push
 // git push heroku appMain:main
 
+// GIT token - vscode://vscode.github-authentication/did-authenticate?windowid=1&code=d725feffb1f2b3390762&state=67c6b856-0f0e-4dbf-bde7-ef3c7105512e
 
 const express = require("express");
 require('./db/mongoose');
